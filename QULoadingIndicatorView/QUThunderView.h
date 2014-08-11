@@ -1,0 +1,2 @@
+@interface QUThunderView : UIView
+@end

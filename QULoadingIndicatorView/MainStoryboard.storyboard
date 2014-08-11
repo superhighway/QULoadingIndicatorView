@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8LE-Xg-Zjx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7Nw-00-3nm">
+            <objects>
+                <viewController id="8LE-Xg-Zjx" customClass="QUViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tPA-T8-hP8"/>
+                        <viewControllerLayoutGuide type="bottom" id="eoy-tF-sWN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lHC-VA-3fx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQu-sx-gna" customClass="QULoadingIndicatorView">
+                                <rect key="frame" x="110" y="140" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEJ-2d-KOt" customClass="QUAlternatingCirclesView">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ah7-3p-c6b" customClass="QUThunderView">
+                                        <rect key="frame" x="30" y="20" width="40" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="SEJ-2d-KOt" firstAttribute="top" secondItem="eQu-sx-gna" secondAttribute="top" id="1Xg-sb-GEZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="ah7-3p-c6b" secondAttribute="trailing" constant="30" id="3eE-Bg-bUL"/>
+                                    <constraint firstAttribute="height" constant="100" id="GBd-5b-I95"/>
+                                    <constraint firstItem="ah7-3p-c6b" firstAttribute="top" secondItem="eQu-sx-gna" secondAttribute="top" constant="20" id="K1U-YB-J7a"/>
+                                    <constraint firstAttribute="bottom" secondItem="ah7-3p-c6b" secondAttribute="bottom" constant="20" id="TLp-dG-Ek1"/>
+                                    <constraint firstAttribute="width" constant="100" id="Vv5-6r-Wor"/>
+                                    <constraint firstItem="SEJ-2d-KOt" firstAttribute="leading" secondItem="eQu-sx-gna" secondAttribute="leading" id="kRA-9q-1fF"/>
+                                    <constraint firstAttribute="bottom" secondItem="SEJ-2d-KOt" secondAttribute="bottom" id="msb-LE-w9u"/>
+                                    <constraint firstItem="ah7-3p-c6b" firstAttribute="leading" secondItem="eQu-sx-gna" secondAttribute="leading" constant="30" id="mx6-a7-9Uf"/>
+                                    <constraint firstAttribute="trailing" secondItem="SEJ-2d-KOt" secondAttribute="trailing" id="oJw-0o-6Fx"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="alternatingCirclesView" destination="SEJ-2d-KOt" id="bXc-uS-GdB"/>
+                                    <outlet property="thunderView" destination="ah7-3p-c6b" id="unN-3J-Irs"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-fN-ri8">
+                                <rect key="frame" x="20" y="428" width="280" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KuO-Hv-Oth"/>
+                                </constraints>
+                                <state key="normal" title="Start Animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="Stop Animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchUpInsideButton:" destination="8LE-Xg-Zjx" eventType="touchUpInside" id="Hqo-rx-Mhg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OVm-fN-ri8" secondAttribute="trailing" constant="20" id="aCp-9Y-5Ag"/>
+                            <constraint firstItem="OVm-fN-ri8" firstAttribute="leading" secondItem="lHC-VA-3fx" secondAttribute="leading" constant="20" id="kJp-Jo-cGd"/>
+                            <constraint firstItem="eQu-sx-gna" firstAttribute="top" secondItem="tPA-T8-hP8" secondAttribute="bottom" constant="120" id="snr-G9-yxy"/>
+                            <constraint firstAttribute="centerX" secondItem="eQu-sx-gna" secondAttribute="centerX" id="vB1-jz-I8f"/>
+                            <constraint firstItem="eoy-tF-sWN" firstAttribute="top" secondItem="OVm-fN-ri8" secondAttribute="bottom" constant="96" id="yxv-J2-lCR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationToggleButton" destination="OVm-fN-ri8" id="TuY-Z2-pnT"/>
+                        <outlet property="loadingIndicatorView" destination="eQu-sx-gna" id="mhj-QX-ZX8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VNS-r4-QRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="-87"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

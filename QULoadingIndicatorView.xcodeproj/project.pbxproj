@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1EEB3719991DD2006E5385 /* QUThunderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EEB3619991DD2006E5385 /* QUThunderView.m */; };
+		0C1EEB3A1999228F006E5385 /* QULoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EEB391999228F006E5385 /* QULoadingIndicatorView.m */; };
+		0C78410D1998DB3800D7D067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78410C1998DB3800D7D067 /* Foundation.framework */; };
+		0C78410F1998DB3800D7D067 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78410E1998DB3800D7D067 /* CoreGraphics.framework */; };
+		0C7841111998DB3800D7D067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7841101998DB3800D7D067 /* UIKit.framework */; };
+		0C7841171998DB3800D7D067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C7841151998DB3800D7D067 /* InfoPlist.strings */; };
+		0C7841191998DB3800D7D067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7841181998DB3800D7D067 /* main.m */; };
+		0C78411D1998DB3800D7D067 /* QUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C78411C1998DB3800D7D067 /* QUAppDelegate.m */; };
+		0C78411F1998DB3800D7D067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C78411E1998DB3800D7D067 /* Images.xcassets */; };
+		0C7841261998DB3800D7D067 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7841251998DB3800D7D067 /* XCTest.framework */; };
+		0C7841271998DB3800D7D067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78410C1998DB3800D7D067 /* Foundation.framework */; };
+		0C7841281998DB3800D7D067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7841101998DB3800D7D067 /* UIKit.framework */; };
+		0C7841301998DB3800D7D067 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C78412E1998DB3800D7D067 /* InfoPlist.strings */; };
+		0C7841321998DB3800D7D067 /* QULoadingIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7841311998DB3800D7D067 /* QULoadingIndicatorViewTests.m */; };
+		0C7841401998DB6B00D7D067 /* QUAlternatingCirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C78413F1998DB6B00D7D067 /* QUAlternatingCirclesView.m */; };
+		0C7841451998DD1600D7D067 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7841441998DD1600D7D067 /* MainStoryboard.storyboard */; };
+		0C7841481998DEF400D7D067 /* QUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7841471998DEF400D7D067 /* QUViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7841291998DB3800D7D067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7841011998DB3800D7D067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7841081998DB3800D7D067;
+			remoteInfo = QULoadingIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1EEB3519991DD2006E5385 /* QUThunderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUThunderView.h; sourceTree = "<group>"; };
+		0C1EEB3619991DD2006E5385 /* QUThunderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUThunderView.m; sourceTree = "<group>"; };
+		0C1EEB381999228F006E5385 /* QULoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QULoadingIndicatorView.h; sourceTree = "<group>"; };
+		0C1EEB391999228F006E5385 /* QULoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QULoadingIndicatorView.m; sourceTree = "<group>"; };
+		0C7841091998DB3800D7D067 /* QULoadingIndicatorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QULoadingIndicatorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C78410C1998DB3800D7D067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C78410E1998DB3800D7D067 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C7841101998DB3800D7D067 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C7841141998DB3800D7D067 /* QULoadingIndicatorView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QULoadingIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		0C7841161998DB3800D7D067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C7841181998DB3800D7D067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C78411A1998DB3800D7D067 /* QULoadingIndicatorView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QULoadingIndicatorView-Prefix.pch"; sourceTree = "<group>"; };
+		0C78411B1998DB3800D7D067 /* QUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QUAppDelegate.h; sourceTree = "<group>"; };
+		0C78411C1998DB3800D7D067 /* QUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUAppDelegate.m; sourceTree = "<group>"; };
+		0C78411E1998DB3800D7D067 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C7841241998DB3800D7D067 /* QULoadingIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QULoadingIndicatorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7841251998DB3800D7D067 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0C78412D1998DB3800D7D067 /* QULoadingIndicatorViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QULoadingIndicatorViewTests-Info.plist"; sourceTree = "<group>"; };
+		0C78412F1998DB3800D7D067 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C7841311998DB3800D7D067 /* QULoadingIndicatorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QULoadingIndicatorViewTests.m; sourceTree = "<group>"; };
+		0C78413E1998DB6B00D7D067 /* QUAlternatingCirclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUAlternatingCirclesView.h; sourceTree = "<group>"; };
+		0C78413F1998DB6B00D7D067 /* QUAlternatingCirclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUAlternatingCirclesView.m; sourceTree = "<group>"; };
+		0C7841441998DD1600D7D067 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0C7841461998DEF400D7D067 /* QUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUViewController.h; sourceTree = "<group>"; };
+		0C7841471998DEF400D7D067 /* QUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C7841061998DB3800D7D067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C78410F1998DB3800D7D067 /* CoreGraphics.framework in Frameworks */,
+				0C7841111998DB3800D7D067 /* UIKit.framework in Frameworks */,
+				0C78410D1998DB3800D7D067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7841211998DB3800D7D067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7841261998DB3800D7D067 /* XCTest.framework in Frameworks */,
+				0C7841281998DB3800D7D067 /* UIKit.framework in Frameworks */,
+				0C7841271998DB3800D7D067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7841001998DB3800D7D067 = {
+			isa = PBXGroup;
+			children = (
+				0C7841121998DB3800D7D067 /* QULoadingIndicatorView */,
+				0C78412B1998DB3800D7D067 /* QULoadingIndicatorViewTests */,
+				0C78410B1998DB3800D7D067 /* Frameworks */,
+				0C78410A1998DB3800D7D067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C78410A1998DB3800D7D067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7841091998DB3800D7D067 /* QULoadingIndicatorView.app */,
+				0C7841241998DB3800D7D067 /* QULoadingIndicatorViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C78410B1998DB3800D7D067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C78410C1998DB3800D7D067 /* Foundation.framework */,
+				0C78410E1998DB3800D7D067 /* CoreGraphics.framework */,
+				0C7841101998DB3800D7D067 /* UIKit.framework */,
+				0C7841251998DB3800D7D067 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C7841121998DB3800D7D067 /* QULoadingIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				0C78411B1998DB3800D7D067 /* QUAppDelegate.h */,
+				0C78411C1998DB3800D7D067 /* QUAppDelegate.m */,
+				0C78411E1998DB3800D7D067 /* Images.xcassets */,
+				0C7841131998DB3800D7D067 /* Supporting Files */,
+				0C78413E1998DB6B00D7D067 /* QUAlternatingCirclesView.h */,
+				0C78413F1998DB6B00D7D067 /* QUAlternatingCirclesView.m */,
+				0C7841441998DD1600D7D067 /* MainStoryboard.storyboard */,
+				0C7841461998DEF400D7D067 /* QUViewController.h */,
+				0C7841471998DEF400D7D067 /* QUViewController.m */,
+				0C1EEB3519991DD2006E5385 /* QUThunderView.h */,
+				0C1EEB3619991DD2006E5385 /* QUThunderView.m */,
+				0C1EEB381999228F006E5385 /* QULoadingIndicatorView.h */,
+				0C1EEB391999228F006E5385 /* QULoadingIndicatorView.m */,
+			);
+			path = QULoadingIndicatorView;
+			sourceTree = "<group>";
+		};
+		0C7841131998DB3800D7D067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7841141998DB3800D7D067 /* QULoadingIndicatorView-Info.plist */,
+				0C7841151998DB3800D7D067 /* InfoPlist.strings */,
+				0C7841181998DB3800D7D067 /* main.m */,
+				0C78411A1998DB3800D7D067 /* QULoadingIndicatorView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C78412B1998DB3800D7D067 /* QULoadingIndicatorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C7841311998DB3800D7D067 /* QULoadingIndicatorViewTests.m */,
+				0C78412C1998DB3800D7D067 /* Supporting Files */,
+			);
+			path = QULoadingIndicatorViewTests;
+			sourceTree = "<group>";
+		};
+		0C78412C1998DB3800D7D067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C78412D1998DB3800D7D067 /* QULoadingIndicatorViewTests-Info.plist */,
+				0C78412E1998DB3800D7D067 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C7841081998DB3800D7D067 /* QULoadingIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7841351998DB3800D7D067 /* Build configuration list for PBXNativeTarget "QULoadingIndicatorView" */;
+			buildPhases = (
+				0C7841051998DB3800D7D067 /* Sources */,
+				0C7841061998DB3800D7D067 /* Frameworks */,
+				0C7841071998DB3800D7D067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QULoadingIndicatorView;
+			productName = QULoadingIndicatorView;
+			productReference = 0C7841091998DB3800D7D067 /* QULoadingIndicatorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C7841231998DB3800D7D067 /* QULoadingIndicatorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7841381998DB3800D7D067 /* Build configuration list for PBXNativeTarget "QULoadingIndicatorViewTests" */;
+			buildPhases = (
+				0C7841201998DB3800D7D067 /* Sources */,
+				0C7841211998DB3800D7D067 /* Frameworks */,
+				0C7841221998DB3800D7D067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C78412A1998DB3800D7D067 /* PBXTargetDependency */,
+			);
+			name = QULoadingIndicatorViewTests;
+			productName = QULoadingIndicatorViewTests;
+			productReference = 0C7841241998DB3800D7D067 /* QULoadingIndicatorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7841011998DB3800D7D067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CatCyborg;
+				TargetAttributes = {
+					0C7841231998DB3800D7D067 = {
+						TestTargetID = 0C7841081998DB3800D7D067;
+					};
+				};
+			};
+			buildConfigurationList = 0C7841041998DB3800D7D067 /* Build configuration list for PBXProject "QULoadingIndicatorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C7841001998DB3800D7D067;
+			productRefGroup = 0C78410A1998DB3800D7D067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C7841081998DB3800D7D067 /* QULoadingIndicatorView */,
+				0C7841231998DB3800D7D067 /* QULoadingIndicatorViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C7841071998DB3800D7D067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7841451998DD1600D7D067 /* MainStoryboard.storyboard in Resources */,
+				0C7841171998DB3800D7D067 /* InfoPlist.strings in Resources */,
+				0C78411F1998DB3800D7D067 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7841221998DB3800D7D067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7841301998DB3800D7D067 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C7841051998DB3800D7D067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7841481998DEF400D7D067 /* QUViewController.m in Sources */,
+				0C1EEB3A1999228F006E5385 /* QULoadingIndicatorView.m in Sources */,
+				0C78411D1998DB3800D7D067 /* QUAppDelegate.m in Sources */,
+				0C7841401998DB6B00D7D067 /* QUAlternatingCirclesView.m in Sources */,
+				0C7841191998DB3800D7D067 /* main.m in Sources */,
+				0C1EEB3719991DD2006E5385 /* QUThunderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7841201998DB3800D7D067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7841321998DB3800D7D067 /* QULoadingIndicatorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C78412A1998DB3800D7D067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C7841081998DB3800D7D067 /* QULoadingIndicatorView */;
+			targetProxy = 0C7841291998DB3800D7D067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C7841151998DB3800D7D067 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7841161998DB3800D7D067 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C78412E1998DB3800D7D067 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C78412F1998DB3800D7D067 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C7841331998DB3800D7D067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C7841341998DB3800D7D067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C7841361998DB3800D7D067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QULoadingIndicatorView/QULoadingIndicatorView-Prefix.pch";
+				INFOPLIST_FILE = "QULoadingIndicatorView/QULoadingIndicatorView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C7841371998DB3800D7D067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QULoadingIndicatorView/QULoadingIndicatorView-Prefix.pch";
+				INFOPLIST_FILE = "QULoadingIndicatorView/QULoadingIndicatorView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0C7841391998DB3800D7D067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QULoadingIndicatorView.app/QULoadingIndicatorView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QULoadingIndicatorView/QULoadingIndicatorView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QULoadingIndicatorViewTests/QULoadingIndicatorViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0C78413A1998DB3800D7D067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QULoadingIndicatorView.app/QULoadingIndicatorView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QULoadingIndicatorView/QULoadingIndicatorView-Prefix.pch";
+				INFOPLIST_FILE = "QULoadingIndicatorViewTests/QULoadingIndicatorViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C7841041998DB3800D7D067 /* Build configuration list for PBXProject "QULoadingIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7841331998DB3800D7D067 /* Debug */,
+				0C7841341998DB3800D7D067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7841351998DB3800D7D067 /* Build configuration list for PBXNativeTarget "QULoadingIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7841361998DB3800D7D067 /* Debug */,
+				0C7841371998DB3800D7D067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7841381998DB3800D7D067 /* Build configuration list for PBXNativeTarget "QULoadingIndicatorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7841391998DB3800D7D067 /* Debug */,
+				0C78413A1998DB3800D7D067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7841011998DB3800D7D067 /* Project object */;
+}
